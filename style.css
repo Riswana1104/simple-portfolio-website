@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+body {
+
+    font-family: "Young Serif", serif;
+
+
+
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+}
+
+.section-one__contact {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.section-one__name {
+    font-size: 50px;
+}
+
+.section-one__role {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    margin-top: 20px;
+
+}
+
+.section-two__desc,
+.section-three__desc,
+.section-four__desc,
+.section-five__desc {
+    padding: 10px;
+}
+
+.section-three {
+    background-color: rgb(58, 26, 201);
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+
+}
+
+.section-four {
+    padding: 20px;
+    background-color: orangered;
+    color: black;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+
+}
+
+.section-three li,
+.section-four li {
+    list-style: none;
+}
+
+.section-five {
+
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-five__title a {
+    color: skyblue;
+    /*space with a will take a focus on title*/
+}
+
+
+
+.contact-form{
+     margin-top:20px;
+    background-color: rgb(240, 142, 118);
+    padding-left: 5px;
+   
+    
+}
+.contact-form__name,.contact-form__mail,.contact-form__msg{
+    margin: 10px;
+}
+.contact-form__name{
+    border: none;
+    border-bottom:solid black 2px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.contact-form__mail{
+    border: none;
+    border-bottom:solid black 2px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.contact-form__msg{
+    padding: 10px;
+    border:solid black 2px;
+    background-color: transparent;
+}
+.contact-form__submit{
+   background-color:red;
+   color: white;
+   padding: 10px;
+   margin-left: 7px;
+   border: none;
+   margin-bottom: 8px;
+   
+
+}
